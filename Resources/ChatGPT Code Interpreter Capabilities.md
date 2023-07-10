@@ -96,6 +96,6 @@ https://chat.openai.com/share/38301a21-bf09-4274-848b-b9cd5523d461
 - render the folium map to an image and show the image
 	- Please note that due to the limitations of my current environment, I'm unable to convert the HTML file to an image directly within this notebook. However, you can do this in a local Python environment using tools like `imgkit` or `selenium`.
 - Unfortunately, without more data and given the constraints of this environment, it's not possible to perform a detailed spatial analysis of the crime data. For a complete analysis, I would recommend using a GIS (Geographic Information System) software or library (like `geopandas` in Python) and obtaining more detailed spatial data.
-- кластеризація та іменування
+  кластеризація та іменування
 - неможливо викликати openai API для вставлення тексту, немає трансформаторів і немає UMAP
 	- 
