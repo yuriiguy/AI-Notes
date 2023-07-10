@@ -1,24 +1,24 @@
-WebText and OpenWebText
-  - GPT-2’s training data is based on Reddit, which according to Pew Internet Research’s 2016 survey, 67% of Reddit users in the US are men, 64% between ages 18 and 29. https://stanford-cs324.github.io/winter2022/lectures/data/
+WebText і OpenWebText
+   - Дані про навчання GPT-2 базуються на Reddit, який, згідно з опитуванням Pew Internet Research у 2016 році, 67% користувачів Reddit у США є чоловіками, 64% у віці від 18 до 29 років. https://stanford-cs324.github.io /зима2022/lectures/data/
 - Common Crawl: https://commoncrawl.org/
-  - We build and maintain an open repository of **web crawl data** that can be **accessed and analyzed by anyone**.
-  - January 2015 it was *over 139TB in size* and contains 1.82 billion webpages. https://commoncrawl.github.io/cc-crawl-statistics/plots/crawlsize
-  - growing steadily at 200-300 TB *per month* for the last few years.
-  - March 2021: 6.4 PB
+   - Ми створюємо та підтримуємо відкрите сховище **даних веб-сканування** до яких може **отримувати доступ і аналізувати кожен**.
+   - У січні 2015 року він мав *понад 139 ТБ* і містив 1,82 мільярда веб-сторінок. https://commoncrawl.github.io/cc-crawl-statistics/plots/crawlsize
+   - стабільно зростає на 200-300 ТБ *на місяць* протягом останніх кількох років.
+   - Березень 2021: 6,4 ПБ
   - https://commoncrawl.github.io/cc-crawl-statistics/
-  - [OSCAR corpus](https://traces1.inria.fr/oscar/) from INRIA. OSCAR is a huge multilingual corpus obtained by language classification and filtering of [Common Crawl](https://commoncrawl.org/) dumps of the Web.
+  - [OSCAR corpus](https://traces1.inria.fr/oscar/) від INRIA. OSCAR — це величезний багатомовний корпус, отриманий шляхом мовної класифікації та фільтрації [Common Crawl](https://commoncrawl.org/) звалища Мережі.
 - C4: https://paperswithcode.com/dataset/c4
-  - **C4** is a colossal, cleaned version of Common Crawl's web crawl corpus. It was based on Common Crawl dataset: https://commoncrawl.org. It was used to train the T5 text-to-text Transformer models.
+  - **C4** — колосальна очищена версія корпусу веб-сканування Common Crawl. Він базувався на наборі даних Common Crawl: https://commoncrawl.org. Він використовувався для навчання моделей перетворювача тексту в текст T5.
   - It comes in four variants:
     - `en`: 305GB in JSON format
     - `en.noblocklist`: 380GB in JSON format
     - `en.noclean`: 2.3TB in JSON format
     - `realnewslike`: 15GB in JSON format
-- The Pile: https://arxiv.org/abs/2101.00027
-  - an 825 GiB English text corpus targeted at training large-scale language models. The Pile is constructed from 22 diverse high-quality subsets -- both existing and newly constructed -- many of which derive from academic or professional sources
-  - behind the scenes of the collection https://news.ycombinator.com/item?id=34359453
-  - ![https://stanford-cs324.github.io/winter2022/lectures/images/the-pile.png](https://stanford-cs324.github.io/winter2022/lectures/images/the-pile.png)
-- The size of all code/history on Github public repos is 92TB The size of Google's monorepo in 2015 was 86TB (of much higher quality code) If Google were willing to deploy code models trained on their own data, they'd have a noticable advantage over everyone else. https://twitter.com/amanrsanger/status/1656696500339249153
+- Купа: https://arxiv.org/abs/2101.00027
+   - англійський текстовий корпус розміром 825 ГіБ, призначений для навчання великомасштабних мовних моделей. Купа складається з 22 різноманітних високоякісних підмножин — як існуючих, так і нещодавно створених — багато з яких походять з академічних або професійних джерел
+   - за лаштунками колекції https://news.ycombinator.com/item?id=34359453
+   - ![https://stanford-cs324.github.io/winter2022/lectures/images/the-pile.png](https://stanford-cs324.github.io/winter2022/lectures/images/the-pile. png)
+- Розмір усього коду/історії в загальнодоступних сховищах Github становить 92 ТБ. Розмір моносховища Google у 2015 році становив 86 ТБ (код набагато вищої якості). Якби Google захотіла розгорнути моделі коду, навчені на своїх власних даних, вони мали б помітний перевага над усіма іншими. https://twitter.com/amanrsanger/status/1656696500339249153
 
 GPT3 data https://stanford-cs324.github.io/winter2022/lectures/data/#gpt-3-dataset
 ![https://stanford-cs324.github.io/winter2022/lectures/images/gpt3-dataset.png](https://stanford-cs324.github.io/winter2022/lectures/images/gpt3-dataset.png)
