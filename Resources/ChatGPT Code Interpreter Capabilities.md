@@ -11,9 +11,7 @@ https://chat.openai.com/share/38301a21-bf09-4274-848b-b9cd5523d461
 й requirements.txt https://twitter.com/swyx/status/1677589535587467264
 ([annotated](https://chat.openai.com/share/a4336af0-6faa-4ffb-b5b0-a3bd7ef8f3aa))
 
-
 ## Підтверджені можливості під час запуску
-
 - Відео маніпуляції
 - за допомогою moviePy https://twitter.com/gdb/status/1638971232443076609
 - Прийнятні типи файлів
@@ -34,12 +32,12 @@ https://chat.openai.com/share/38301a21-bf09-4274-848b-b9cd5523d461
 - **Відкритий аналіз**:
 		- "Here is some data on superhero powers, look through it and tell me what you find"
 		- "I am interested in doing some predictive modeling, where we can predict what powers a hero might have based on other factors."
-	- **Joins**: "Could you first combine the two datasets"
-	- **Integrity checks**: "... and confirm that they combined properly"
-	- **Data Cleaning**: "Does the data need cleaning in any way?"
-	- **Data Preprocessing**: "Great! Cluster analysis can help us group similar superheroes together based on their attributes. Before we start, we need to preprocess our data. This will involve the following steps:" https://chat.openai.com/share/770ab170-8fed-402f-850f-e6d7273e77cd
-	- **Summary of analysis**: "What is your summary of all this analysis, in bullet points?"
-	- **Create Interactive Dashboard** https://emollick.github.io/Superhero/
+	- **Поєднання даних**: "Could you first combine the two datasets"
+	- **Перевірки цілісності даних**: "... and confirm that they combined properly"
+	- **Очищення даних**: "Does the data need cleaning in any way?"
+	- **Попередня обробка даних**: "Great! Cluster analysis can help us group similar superheroes together based on their attributes. Before we start, we need to preprocess our data. This will involve the following steps:" https://chat.openai.com/share/770ab170-8fed-402f-850f-e6d7273e77cd
+	- **Підсумок аналізу**: "What is your summary of all this analysis, in bullet points?"
+	- **Створіть інтерактивну інформаційну панель** https://emollick.github.io/Superhero/
 		- і графіки https://emollick.github.io/3Dmusic/
 		- і картиhttps://github.com/emollick/GPTflightmap.github.io
 	- Dataviz
@@ -66,12 +64,12 @@ https://chat.openai.com/share/38301a21-bf09-4274-848b-b9cd5523d461
 	- Випереджальне відновлення? "I'm sorry, but it seems there was a disruption in the code execution environment causing a reset."
 		- "Given the repeated resets in the code execution state, I think the most efficient way forward is to write a self-contained script that does not rely on any variables from earlier in the session."
 	- Динамічно імпортує модулі
-	- **Catastrophic recovery and retry**: "Let's start from the beginning by extracting the data from the zip file again. I'll make sure to correctly specify the locations this time." https://chat.openai.com/share/770ab170-8fed-402f-850f-e6d7273e77cd
+	- **Катастрофічне відновлення та повторна спроба**: "Let's start from the beginning by extracting the data from the zip file again. I'll make sure to correctly specify the locations this time." https://chat.openai.com/share/770ab170-8fed-402f-850f-e6d7273e77cd
 	- can you display this .png inline?
 		- from IPython.display import Image # Display the generated flowchart Image(filename='/mnt/data/flowchart_enhanced.png')
 		- <IPython.core.display.Image object>
 	- KeyboardInterrupt: after long execution https://chat.openai.com/share/adc73608-4c80-497b-ad03-31de28bfa919
-	- Image processing with PIL: "Make the background of this image black"
+	- Обробка зображень з PIL: "Make the background of this image black"
 	- Cv2 library for computer vision, py-tesseract for OCR
 	
 
@@ -91,7 +89,7 @@ https://chat.openai.com/share/38301a21-bf09-4274-848b-b9cd5523d461
 	- `NameError: name 'np' is not defined`
 	- `NameError: name 'combinations' is not defined` I apologize for the oversight. It seems I forgot to import the `combinations` function from the `itertools` module`
 	- `NameError: name 'ImageDraw' is not defined`. I apologize for the error, it appears I forgot to import the `ImageDraw` module from the `PIL` package. L
-- no internet access
+- немає доступу до Інтернету
 	- To proceed, we would need the descriptions of each package. These can typically be obtained from the package's documentation or from PyPI (the Python Package Index). However, fetching data from the internet is not permitted in the current environment.
 - it doesn't "fill in the blanks" from LLM knowledge - instruction to "guess the data you don't have" fails
 - thinks it doesn't have folium... but it does
