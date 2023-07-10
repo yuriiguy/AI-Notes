@@ -65,8 +65,7 @@ The Illustrated BERT, ELMo та компанія (Як NLP зламав Transfer
 
 Якщо ви хочете навчитися їх кодувати, ця книга чудова: [https://d2l.ai/chapter_attention-mechanisms-and-transformers...](https://d2l.ai/chapter_attention-mechanisms-and-transformers/index.html)
 
-Transformer Taxonomy (останній освітлений огляд)
-https://kipp.ly/blog/transformer-taxonomy/
+Transformer Taxonomy (останній освітлений огляд) https://kipp.ly/blog/transformer-taxonomy/
 - Він охоплює 22 моделі, 11 архітектурних змін, 7 методик після попереднього навчання та 3 методики навчання (і 5 речей, які не є жодною з перерахованих вище).
 
 візуалізація уваги https://catherinesyeh.github.io/attn-docs/
@@ -93,7 +92,7 @@ https://kipp.ly/blog/transformer-taxonomy/
 -   [**Значення Chinchilla про дику природу**](https://www.lesswrong.com/posts/6Fpvch8RR29qLEWNH/chinchilla-s-wild-implications): цей допис номінально пояснює важливий документ про шиншиллу (див. нижче). суть великого питання масштабування LLM: чи не вичерпуються дані? Це ґрунтується на публікації вище та дає оновлений погляд на закони масштабування.
 - **[Огляд великих мовних моделей](https://arxiv.org/pdf/2303.18223v4.pdf)**: повна розбивка поточних LLM, включаючи графік розробки, розмір, стратегії навчання, навчальні дані, апаратне забезпечення, і більше.
 - [**Іскри загального штучного інтелекту: ранні експерименти з GPT-4**](https://arxiv.org/abs/2303.12712): ранній аналіз можливостей GPT-4, найсучаснішого на даний момент, проведеного Microsoft Research LLM, відносно людського інтелекту.
-- [**Революція ШІ: як Auto-GPT відкриває нову еру автоматизації та творчості**](https://pub.towardsai.net/the-ai-revolution-how-auto-gpt-unleashes-a- new-era-of-automation-and-creativity-2008aa2ca6ae): Знайомство з Auto-GPT та агентами ШІ загалом. Ця технологія є дуже ранньою, але її важливо зрозуміти — вона використовує доступ до Інтернету та самостійно створені підзавдання для вирішення конкретних, складних проблем або цілей.
+- [**Революція ШІ: як Auto-GPT відкриває нову еру автоматизації та творчості**](https://pub.towardsai.net/the-ai-revolution-how-auto-gpt-unleashes-a-new-era-of-automation-and-creativity-2008aa2ca6ae): Знайомство з Auto-GPT та агентами ШІ загалом. Ця технологія є дуже ранньою, але її важливо зрозуміти — вона використовує доступ до Інтернету та самостійно створені підзавдання для вирішення конкретних, складних проблем або цілей.
 - **[Ефект Валуїджі](https://www.lesswrong.com/posts/D7PumeYTDPfBTp3i7/the-waluigi-effect-mega-post)**: номінальне пояснення «ефекту Валуїджі» (тобто, чому « alter egos» з’являються в поведінці LLM), але цікаві здебільшого своїм глибоким зануренням у теорію підказок LLM.
 
 ## спалах уваги
